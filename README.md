@@ -1,12 +1,10 @@
 # opso-agile-al
 
-Based on https://github.com/climatechange-ai-tutorials/bioacoustic-monitoring?tab=readme-ov-file
+Bioacoustics active learning notebook based on the [CCAI Tutorial: Agile Modeling for Bioacoustic Monitoring](https://github.com/climatechange-ai-tutorials/bioacoustic-monitoring?tab=readme-ov-file).
 
-
-# Tensorflow environment
+## Create Tensorflow environment
 
 ```
-
 conda create -n agile-al python==3.10
 conda activate agile-al
 pip install tensorflow==2.15.0
@@ -15,18 +13,9 @@ pip install git+https://github.com/google-research/perch.git@e27e95344c84601759d
 
 ```
 
-# Create symbolic link to data
+## References
+ - [Original tutorial notebook (a.k.a.Tom Denton's notebook](https://colab.research.google.com/github/climatechange-ai-tutorials/bioacoustic-monitoring/blob/main/%5BSharable%5D_CCAI_Agile_Modeling_for_Bioacoustic_Monitoring_Tutorial.ipynb)
+ - [Agile modeling paper](https://arxiv.org/abs/2302.12948)
+ 
 
 
-
-# Running on Snowy
-
-```
-jupyter-lab --no-browser --port=8080
-```
-
-
-```
-ssh -L 8080:localhost:8080 let110@10.220.222.226
-
-```
